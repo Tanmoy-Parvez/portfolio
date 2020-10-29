@@ -1,0 +1,20 @@
+.Projects{
+    background-color: #111430;
+    padding-bottom: 50px;
+}
+.carousel_parent{
+    /* background-color: #111430; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.carouselImg img{
+    height: 100%;
+    width: 100%;
+}
+.carouselBtn{
+    background-color: #fff;
+    padding: 5px 50px;
+}
+.documnet{
+    font-size: 25px;
+}
