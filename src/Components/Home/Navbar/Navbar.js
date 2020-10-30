@@ -29,6 +29,7 @@ const Navbar = () => {
                         <li class="nav-item">
                             <Link to="/about" class="nav-link" >About</Link>
                         </li>
+                     
                         <li class="nav-item">
                             <a style={{color:"#111430"}} className="btn btn-light text-dark py-2 " href="https://pdfhost.io/v/bkHHX6NQ2_Israfil_HossenWeb_Developerresumepdf.pdf" download="israfil cv" >Download Resume</a>
                         </li>

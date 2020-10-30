@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import israfil from '../../image/israfil.jpg';
 import Navbar from '../Home/Navbar/Navbar';
+import ContactForm from '../Home/ContactForm/ContactForm';
 
 const About = () => {
     return (
@@ -70,6 +71,8 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+
+                <ContactForm></ContactForm>
             </div>
 
         </div>

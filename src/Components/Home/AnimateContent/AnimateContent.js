@@ -42,7 +42,7 @@ const AnimateContent = () => {
 
             <div className="text-white d-flex justify-content-center mt-5 icons">
                 <a href="https://www.facebook.com/don.israfil.9"><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href="https://www.linkedin.com/in/israfil-hossen/"><FontAwesomeIcon className="mx-3" icon={faLinkedinIn} /></a>
+                <a href="https://www.linkedin.com/in/israfil-hossen/"><FontAwesomeIcon className="mx-5" icon={faLinkedinIn} /></a>
                 <a href="https://github.com/israfil-cse"><FontAwesomeIcon icon={faGithub} /></a>
                 
                 
