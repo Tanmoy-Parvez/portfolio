@@ -32,20 +32,20 @@ const About = () => {
                                         <p class="title-s">Skill</p>
                                         <span className='text-white'>HTML</span> <span class="pull-right text-white">95%</span>
                                         <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style={{width: "95%"}} aria-valuenow="95" aria-valuemin="0"
+                                            <div class="progress-bar" role="progressbar" style={{ width: "95%" }} aria-valuenow="95" aria-valuemin="0"
                                                 aria-valuemax="100"></div>
                                         </div>
                                         <span className='text-white'>CSS3</span> <span class="pull-right text-white">90%</span>
                                         <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style={{width: "90%"}} aria-valuenow="90" aria-valuemin="0"
+                                            <div class="progress-bar" role="progressbar" style={{ width: "90%" }} aria-valuenow="90" aria-valuemin="0"
                                                 aria-valuemax="100"></div>
                                         </div>
                                         <span className='text-white'>JAVASCRIPT</span> <span class="pull-right text-white">70%</span>
                                         <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style={{width: "70%"}} aria-valuenow="70" aria-valuemin="0"
+                                            <div class="progress-bar" role="progressbar" style={{ width: "70%" }} aria-valuenow="70" aria-valuemin="0"
                                                 aria-valuemax="100"></div>
                                         </div>
-                                    
+
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -53,24 +53,17 @@ const About = () => {
                                         <div class="title-box-2">
                                             <h5 class="title-left">
                                                 About me
-                    </h5>
+                                             </h5>
                                         </div>
                                         <p class="lead">
-                                            Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                                            imperdiet et, porttitor
-                                            at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                                            porttitor accumsan tincidunt.
-                  </p>
+                                            I've been trying to learn programming for 2 years, at this time Looking back in my past, I can't find any other chapter except coding
+                                          </p>
                                         <p class="lead">
-                                            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                                            porttitor volutpat. Vestibulum
-                                            ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                  </p>
+                                            I have become so involved with programming that coding has become an addiction. That's why when I finish a project at the right time, then I feel full of peace, joy, and a smile to
+                                          </p>
                                         <p class="lead">
-                                            Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                                            Nulla porttitor accumsan
-                                            tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                  </p>
+                                            Finally,Dedicated and efficient full stack developer with 8+ months of experience in application layers, presentation layers, and databases.
+                                        </p>
                                     </div>
                                 </div>
                             </div>

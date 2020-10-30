@@ -1,41 +1,42 @@
 import React from 'react';
-import img1 from '../../../image/creative/c1.png';
-import img2 from '../../../image/doctor/d1.png';
-import img3 from '../../../image/vouinter/v1.png';
+import jlogo from '../../../image/jslogo.png';
+import rlogo from '../../../image/reactlogo.png';
+import nlogo from '../../../image/node.png';
+import { Link } from 'react-router-dom';
 const Blog = () => {
     return (
         <div className="container">
             <h1 className="text-center text-white pt-5" > OUR BLOG</h1>
             <div class="card-deck mt-5 pb-5">
                 <div class="card">
-                    <img src={img1} class="card-img-top" alt="..." />
+                    <img src={jlogo} class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h5 class="card-title">Creative agency</h5>
-                        <button class="card-text btn btn-primary">see more</button>
+                        <h5 class="card-title">JavaScript blog</h5>
+                        <Link to="/blog"><button class="card-text btn btn-primary">see more</button></Link>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 2 minutes ago</small>
+                        <small class="text-muted">comming soon</small>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src={img2} class="card-img-top" alt="..." />
+                    <img src={rlogo} class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h5 class="card-title">Doctor portals</h5>
-                         <button class="card-text btn btn-primary">see more</button>
+                        <h5 class="card-title">React js blog</h5>
+                        <Link to="/blog"><button class="card-text btn btn-primary">see more</button></Link>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">comming soon..</small>
                     </div>
                 </div>
                 <div class="card">
-                    <img src={img3} class="card-img-top" alt="..." />
+                    <img src={nlogo} class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h5 class="card-title">voilenteer network</h5>
-                        <button class="card-text btn btn-primary">see more</button>
+                        <h5 class="card-title">Node js blog</h5>
+                        <Link to="/blog"><button class="card-text btn btn-primary">see more</button></Link>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">comming soon..</small>
                     </div>
                 </div>
             </div>

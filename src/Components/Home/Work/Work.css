@@ -10,3 +10,15 @@
     height: 200px;
     
 }
+
+
+.img-hover-zoom{
+    overflow: hidden;
+}
+  .img-hover-zoom img {
+    transition: transform .9s ease;
+  }
+  
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }

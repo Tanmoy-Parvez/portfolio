@@ -12,7 +12,7 @@ const AnimateContent = () => {
         <div className=" animateStyle">
             <div>
                 <figure className="text-center mt-5">
-                    <img className="img-fluid" style={{ height: "400px", width: "400px", borderRadius: "50%" }} src={brandLogo} alt="img" />
+                    <img className="img-fluid" style={{ height: "300px", width: "300px", borderRadius: "50%" }} src={brandLogo} alt="img" />
                 </figure>
             </div>
             <h1 className="text-white text-center">I AM <span style={{color:"#0AB6FA"}}>ISRAFIL HOSSEN</span></h1>
@@ -42,7 +42,7 @@ const AnimateContent = () => {
 
             <div className="text-white d-flex justify-content-center mt-5 icons">
                 <a href="https://www.facebook.com/don.israfil.9"><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href="www.linkedin.com/in/israfil-hossen "><FontAwesomeIcon className="mx-3" icon={faLinkedinIn} /></a>
+                <a href="https://www.linkedin.com/in/israfil-hossen/"><FontAwesomeIcon className="mx-3" icon={faLinkedinIn} /></a>
                 <a href="https://github.com/israfil-cse"><FontAwesomeIcon icon={faGithub} /></a>
                 
                 

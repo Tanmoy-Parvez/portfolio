@@ -11,6 +11,8 @@ import Project from "./Components/Project/Project";
 import NoMatch from "./Components/NoMatch/NoMatch";
 import Resume from "./Components/Resume/Resume";
 import About from "./Components/About/About";
+import Blog from "./Components/Home/Blog/Blog";
+import BlogPage from "./Components/BlogPage/BlogPage";
 
 function App() {
   return (
@@ -27,6 +29,9 @@ function App() {
         </Route>
         <Route path="/about">
           <About></About>
+        </Route>
+        <Route path="/blog">
+          <BlogPage></BlogPage>
         </Route>
         
         <Route path="*">
