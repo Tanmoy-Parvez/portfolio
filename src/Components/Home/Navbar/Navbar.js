@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-import { jsPDF } from "jspdf";
-
 const Navbar = () => {
 
     return (
@@ -11,7 +9,7 @@ const Navbar = () => {
         <div className=" navSectio">
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                <div  className="container">
-               <a class="navbar-brand brandText" href="#">ISRAFIL</a>
+               <a style={{color:"#111430"}} class="navbar-brand  btn btn-light text-dark" href="https://pdfhost.io/v/bkHHX6NQ2_Israfil_HossenWeb_Developerresumepdf.pdf" target="-blank">Download Resume</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -31,7 +29,7 @@ const Navbar = () => {
                         </li>
                      
                         <li class="nav-item">
-                            <a style={{color:"#111430"}} className="btn btn-light text-dark py-2 " href="https://pdfhost.io/v/bkHHX6NQ2_Israfil_HossenWeb_Developerresumepdf.pdf" download="israfil cv" >Download Resume</a>
+                            <Link to="/contact" class="nav-link">Contact</Link>
                         </li>
 
                     </ul>

@@ -9,10 +9,10 @@ import {
 } from "react-router-dom";
 import Project from "./Components/Project/Project";
 import NoMatch from "./Components/NoMatch/NoMatch";
-import Resume from "./Components/Resume/Resume";
 import About from "./Components/About/About";
-import Blog from "./Components/Home/Blog/Blog";
 import BlogPage from "./Components/BlogPage/BlogPage";
+import ContactForm from "./Components/Home/ContactForm/ContactForm";
+import ContactUs from "./Components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -32,6 +32,9 @@ function App() {
         </Route>
         <Route path="/blog">
           <BlogPage></BlogPage>
+        </Route>
+        <Route path="/contact">
+          <ContactUs></ContactUs>
         </Route>
         
         <Route path="*">

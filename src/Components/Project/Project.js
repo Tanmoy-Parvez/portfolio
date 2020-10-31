@@ -27,6 +27,33 @@ import volunteer4 from '../../image/vouinter/v4.png';
 import volunteer5 from '../../image/vouinter/v5.png';
 import volunteer6 from '../../image/vouinter/v6.png';
 
+// html css 
+import wp1 from '../../image/html and css/p1.png';
+import wp2 from '../../image/html and css/p2.png';
+
+import wpt1 from '../../image/html and css/pt1.png';
+import wpt2 from '../../image/html and css/pt2.png';
+import wpt3 from '../../image/html and css/pt3.png';
+
+//bootstrap
+import pd1 from '../../image/bootsrap/pd1.png';
+import pd2 from '../../image/bootsrap/pd2.png';
+import pd3 from '../../image/bootsrap/pd3.png';
+
+import hg1 from '../../image/bootsrap/hg1.png';
+import hg2 from '../../image/bootsrap/hg2.png';
+import hg3 from '../../image/bootsrap/hg3.png';
+
+
+import es1 from '../../image/bootsrap/es1.png';
+import es2 from '../../image/bootsrap/es2.png';
+import es3 from '../../image/bootsrap/es3.png';
+
+
+
+
+
+
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import Navbar from "../Home/Navbar/Navbar";
@@ -155,9 +182,6 @@ const Project = () => {
                             <Slide index={3}><img src={volunteer4} alt="" /></Slide>
                             <Slide index={4}><img src={volunteer5} alt="" /></Slide>
                             <Slide index={5}><img src={volunteer6} alt="" /></Slide>
-                         
-                           
-
                         </Slider>
                         <div className="d-flex justify-content-center  mt-5 pb-5">
                             <div className="carouselBtn">
@@ -173,6 +197,208 @@ const Project = () => {
                 <li className=" documnet">A single-page web app where people can select a category and if he wants to help. </li>
                 <h3 className="mt-3">Technology used : React.js, Node.js, Express.js,firebase ,MongoDB, Bootstrap4, css, html</h3>
             </div>
+
+
+
+
+
+
+
+
+            <div className="mt-5 ml-5">
+                <h3>Web protfolio​</h3>
+                <a className="text-white btn btn-primary" href="https://israfil-cse.github.io/web-portfolio/" target="_blank">🔗Open project</a>
+            </div>
+
+            <div id="work" className="carousel_parent">
+                <div className="container">
+
+                    <div>
+                        <h3 className="text-center py-5">Project <span style={{ color: '#7AB259' }}>overview</span></h3>
+                    </div>
+                    <CarouselProvider
+                        naturalSlideWidth={100}
+                        naturalSlideHeight={40}
+                        totalSlides={2}
+                    >
+                        <Slider className="carouselImg">
+                            <Slide index={0}><img src={wp1} alt="" /></Slide>
+                            <Slide index={1}><img src={wp2} alt="" /></Slide>
+
+
+                        </Slider>
+                        <div className="d-flex justify-content-center  mt-5 pb-5">
+                            <div className="carouselBtn">
+                                <ButtonBack>Back</ButtonBack>
+                                <ButtonNext>Next</ButtonNext>
+                            </div>
+                        </div>
+                    </CarouselProvider>
+                </div>
+            </div>
+            <h2 className="ml-5 mt-2">Project Documentation</h2>
+            <div className="ml-5">
+                <li className=" documnet">This is a web page </li>
+                <h3 className="mt-3">Technology used : html & css</h3>
+            </div>
+
+
+
+            <div className="mt-5 ml-5">
+                <h3>Personal blog</h3>
+                <a className="text-white btn btn-primary" href="https://israfil-cse.github.io/personal-website/ " target="_blank">🔗Open project</a>
+            </div>
+
+            <div id="work" className="carousel_parent">
+                <div className="container">
+
+                    <div>
+                        <h3 className="text-center py-5">Project <span style={{ color: '#7AB259' }}>overview</span></h3>
+                    </div>
+                    <CarouselProvider
+                        naturalSlideWidth={100}
+                        naturalSlideHeight={40}
+                        totalSlides={3}
+                    >
+                        <Slider className="carouselImg">
+                            <Slide index={0}><img src={wpt1} alt="" /></Slide>
+                            <Slide index={1}><img src={wpt2} alt="" /></Slide>
+                            <Slide index={2}><img src={wpt3} alt="" /></Slide>
+
+                        </Slider>
+                        <div className="d-flex justify-content-center  mt-5 pb-5">
+                            <div className="carouselBtn">
+                                <ButtonBack>Back</ButtonBack>
+                                <ButtonNext>Next</ButtonNext>
+                            </div>
+                        </div>
+                    </CarouselProvider>
+                </div>
+            </div>
+            <h2 className="ml-5 mt-2">Project Documentation</h2>
+            <div className="ml-5">
+                <li className=" documnet">This is a web page </li>
+                <h3 className="mt-3">Technology used : html & css</h3>
+            </div>
+
+
+            <div className="mt-5 ml-5">
+                <h3>Panda-commarce</h3>
+                <a className="text-white btn btn-primary" href="https://israfil-cse.github.io/panda-commarce/ " target="_blank">🔗Open project</a>
+            </div>
+
+            <div id="work" className="carousel_parent">
+                <div className="container">
+
+                    <div>
+                        <h3 className="text-center py-5">Project <span style={{ color: '#7AB259' }}>overview</span></h3>
+                    </div>
+                    <CarouselProvider
+                        naturalSlideWidth={100}
+                        naturalSlideHeight={40}
+                        totalSlides={3}
+                    >
+                        <Slider className="carouselImg">
+                            <Slide index={0}><img src={pd1} alt="" /></Slide>
+                            <Slide index={1}><img src={pd2} alt="" /></Slide>
+                            <Slide index={2}><img src={pd3} alt="" /></Slide>
+
+                        </Slider>
+                        <div className="d-flex justify-content-center  mt-5 pb-5">
+                            <div className="carouselBtn">
+                                <ButtonBack>Back</ButtonBack>
+                                <ButtonNext>Next</ButtonNext>
+                            </div>
+                        </div>
+                    </CarouselProvider>
+                </div>
+            </div>
+            <h2 className="ml-5 mt-2">Project Documentation</h2>
+            <div className="ml-5">
+                <li className=" documnet">This is a E-commarce web page </li>
+                <h3 className="mt-3">Technology used : Bootstrap & html,css</h3>
+            </div>
+            
+
+
+
+            <div className="mt-5 ml-5">
+                <h3>Hot-gadgets</h3>
+                <a className="text-white btn btn-primary" href="https://israfil-cse.github.io/hot-gadgets/" target="_blank">🔗Open project</a>
+            </div>
+
+            <div id="work" className="carousel_parent">
+                <div className="container">
+
+                    <div>
+                        <h3 className="text-center py-5">Project <span style={{ color: '#7AB259' }}>overview</span></h3>
+                    </div>
+                    <CarouselProvider
+                        naturalSlideWidth={100}
+                        naturalSlideHeight={40}
+                        totalSlides={3}
+                    >
+                        <Slider className="carouselImg">
+                            <Slide index={0}><img src={hg1} alt="" /></Slide>
+                            <Slide index={1}><img src={hg2} alt="" /></Slide>
+                            <Slide index={2}><img src={hg3} alt="" /></Slide>
+
+                        </Slider>
+                        <div className="d-flex justify-content-center  mt-5 pb-5">
+                            <div className="carouselBtn">
+                                <ButtonBack>Back</ButtonBack>
+                                <ButtonNext>Next</ButtonNext>
+                            </div>
+                        </div>
+                    </CarouselProvider>
+                </div>
+            </div>
+            <h2 className="ml-5 mt-2">Project Documentation</h2>
+            <div className="ml-5">
+                <li className=" documnet">This is a E-commarce web page </li>
+                <h3 className="mt-3">Technology used : Bootstrap & html,css</h3>
+            </div>
+
+
+            <div className="mt-5 ml-5">
+                <h3>E-school</h3>
+                <a className="text-white btn btn-primary" href="https://israfil-cse.github.io/E-school/" target="_blank">🔗Open project</a>
+            </div>
+
+            <div id="work" className="carousel_parent">
+                <div className="container">
+
+                    <div>
+                        <h3 className="text-center py-5">Project <span style={{ color: '#7AB259' }}>overview</span></h3>
+                    </div>
+                    <CarouselProvider
+                        naturalSlideWidth={100}
+                        naturalSlideHeight={40}
+                        totalSlides={3}
+                    >
+                        <Slider className="carouselImg">
+                            <Slide index={0}><img src={es1} alt="" /></Slide>
+                            <Slide index={1}><img src={es2} alt="" /></Slide>
+                            <Slide index={2}><img src={es3} alt="" /></Slide>
+                        </Slider>
+                        <div className="d-flex justify-content-center  mt-5 pb-5">
+                            <div className="carouselBtn">
+                                <ButtonBack>Back</ButtonBack>
+                                <ButtonNext>Next</ButtonNext>
+                            </div>
+                        </div>
+                    </CarouselProvider>
+                </div>
+            </div>
+            <h2 className="ml-5 mt-2">Project Documentation</h2>
+            <div className="ml-5">
+                <li className=" documnet">This is a E-commarce web page </li>
+                <h3 className="mt-3">Technology used : Bootstrap & html,css</h3>
+            </div>
+
+
+
+
         </div>
 
     );

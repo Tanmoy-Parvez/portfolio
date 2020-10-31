@@ -22,3 +22,8 @@
   .img-hover-zoom:hover img {
     transform: scale(1.5);
   }
+  .iconStyle{
+    color: red;
+    font-size: 15px;
+    margin-right: 2px;
+  }

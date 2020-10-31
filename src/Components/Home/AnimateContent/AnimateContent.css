@@ -25,3 +25,8 @@ p{
     background-color: #111430;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
+@media only screen and (max-width: 479px){
+    .textH1{
+        font-size: 30px;
+    }
+}

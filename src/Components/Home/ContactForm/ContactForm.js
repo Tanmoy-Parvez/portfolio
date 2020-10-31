@@ -1,8 +1,7 @@
 import React from 'react';
 import './ContactForm.css';
-import { useForm } from "react-hook-form";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fab, faFacebook, faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { } from '@fortawesome/free-solid-svg-icons';
 
 import emailjs from 'emailjs-com';
