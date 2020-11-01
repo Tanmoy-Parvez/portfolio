@@ -17,9 +17,11 @@ const ContactForm = () => {
 
             .then((result) => {
                 console.log(result.text);
+                alert('your message has been submitted')
             }, (error) => {
                 console.log(error.text);
             });
+            e.target.reset();
     }
 
     return (
