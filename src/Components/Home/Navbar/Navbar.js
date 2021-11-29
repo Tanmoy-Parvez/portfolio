@@ -7,36 +7,33 @@ const Navbar = () => {
     return (
 
         <div className=" navSectio">
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3">
-               <div  className="container">
-               <a style={{color:"#111430"}} class="navbar-brand  btn btn-light text-dark" href="https://pdfhost.io/v/9Pn6dgAjl_IsrafilHossenWebDevresumepdf.pdf" target="-blank">Download Resume</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto ">
-                        <li class="nav-item  ">
-                            <Link to="/Home" class="nav-link " >Home <span class="sr-only">(current)</span></Link>
-                        </li>
-                        <li class="nav-item">
-                            <Link to="/project" class="nav-link" >Project</Link>
-                        </li>
-                        <li class="nav-item">
-                            <Link to="/blog" class="nav-link" >Blog</Link>
-                        </li>
-                        <li class="nav-item">
-                            <Link to="/about" class="nav-link" >About</Link>
-                        </li>
-                     
-                        <li class="nav-item">
-                            <Link to="/contact" class="nav-link">Contact</Link>
-                        </li>
+            <nav className="navbar navbar-expand-lg navbar-dark fixed-top py-3">
+                <div className="container">
+                    <a style={{ color: "#111430" }} className="navbar-brand  btn btn-light text-dark" href="https://drive.google.com/file/d/13PXriCopfEbqtkEx__jzfPBBr_akrHBr/view?usp=sharing" target="-blank">Download Resume</a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav ml-auto ">
+                            <li className="nav-item  ">
+                                <Link to="/Home" className="nav-link " >Home <span className="sr-only">(current)</span></Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/work" className="nav-link" >Project</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/about" className="nav-link" >About</Link>
+                            </li>
 
-                    </ul>
+                            <li className="nav-item">
+                                <Link to="/contact" className="nav-link">Contact</Link>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
-               </div>
             </nav>
-            
+
         </div>
 
     );

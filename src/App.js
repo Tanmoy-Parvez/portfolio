@@ -7,16 +7,16 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Project from "./Components/Project/Project";
 import NoMatch from "./Components/NoMatch/NoMatch";
 import About from "./Components/About/About";
-import BlogPage from "./Components/BlogPage/BlogPage";
-import ContactForm from "./Components/Home/ContactForm/ContactForm";
 import ContactUs from "./Components/ContactUs/ContactUs";
+import Work from "./Components/Home/Work/Work";
+import Navbar from "./Components/Home/Navbar/Navbar";
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Switch>
         <Route exact path="/">
           <Home></Home>
@@ -24,19 +24,15 @@ function App() {
         <Route path="/Home">
           <Home></Home>
         </Route>
-        <Route path="/project">
-          <Project></Project>
-        </Route>
         <Route path="/about">
           <About></About>
         </Route>
-        <Route path="/blog">
-          <BlogPage></BlogPage>
+        <Route path="/work">
+          <Work></Work>
         </Route>
         <Route path="/contact">
           <ContactUs></ContactUs>
         </Route>
-        
         <Route path="*">
           <NoMatch></NoMatch>
         </Route>

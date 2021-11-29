@@ -1,9 +1,9 @@
 import React from 'react';
 import './AnimateContent.css';
-import brandLogo from "../../../image/israfil.jpg";
+import brandLogo from "../../../image/tanmoy_parvez2.png";
 import Typical from 'react-typical';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fab, faFacebook, faGithub, faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -15,24 +15,20 @@ const AnimateContent = () => {
                     <img className="img-fluid" style={{ height: "300px", width: "300px", borderRadius: "50%" }} src={brandLogo} alt="img" />
                 </figure>
             </div>
-            <h1 className="text-white text-center textH1">I AM <span style={{color:"#0AB6FA"}}>ISRAFIL HOSSEN</span></h1>
+            <h1 className="text-white text-center textH1">I AM <span style={{ color: "#0AB6FA" }}>TANMOY PARVEZ</span></h1>
             <div className="d-flex justify-content-center align-items-center">
-            
+
                 <h3 className="text-white">
                     🤍{''}
                     <Typical
                         loop={Infinity}
                         wrapper="b"
                         steps={[
-                            'Web Developer',
-                            1000,
-                            '',
-                            1000,
-                            'Web Designer',
+                            'Mern Stack Developer',
                             1000,
                             'Frontend Developer',
                             1000,
-                            'Graphic Designer',
+                            'JavaScript Developer',
                             1000,
                         ]}
 
@@ -41,11 +37,11 @@ const AnimateContent = () => {
             </div>
 
             <div className="text-white d-flex justify-content-center mt-5 icons">
-                <a href="https://www.facebook.com/don.israfil.9"><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href="https://www.linkedin.com/in/israfil-hossen/"><FontAwesomeIcon className="mx-5" icon={faLinkedinIn} /></a>
-                <a href="https://github.com/israfil-cse"><FontAwesomeIcon icon={faGithub} /></a>
-                
-                
+                <a href="https://www.facebook.com/TanmoyParvez23/" target="-blank"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="https://www.linkedin.com/in/tanmoy-parvez/" target="-blank"><FontAwesomeIcon className="mx-5" icon={faLinkedinIn} /></a>
+                <a href="https://github.com/Tanmoy-Parvez" target="-blank"><FontAwesomeIcon icon={faGithub} /></a>
+
+
             </div>
         </div>
     );
