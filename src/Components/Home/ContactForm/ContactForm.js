@@ -42,7 +42,7 @@ const ContactForm = () => {
                 </div>
                 <div className="col-md-6 text-white">
                     <h1 className="text-white pt-5 mt-4 text-uppercase">Get in Touch</h1>
-                    <p className="pt-4" style={{ textAlign: 'justify' }}>Please feel free to contact me if you need any further information. Please let me know if you have any questions. I hope the above is useful to you.</p>
+                    <h4 className="mt-4" style={{ textAlign: 'justify', lineHeight: '35px' }}>Please feel free to contact me if you need any further information. Please let me know if you have any questions. I hope the above is useful to you.</h4>
 
                     <div className="text-white d-flex justify-content-center mt-5 icons">
                         <a href="https://www.facebook.com/TanmoyParvez23/"><FontAwesomeIcon icon={faFacebook} /></a>

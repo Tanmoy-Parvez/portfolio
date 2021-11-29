@@ -15,11 +15,11 @@ const AnimateContent = () => {
                     <img className="img-fluid" style={{ height: "300px", width: "300px", borderRadius: "50%" }} src={brandLogo} alt="img" />
                 </figure>
             </div>
-            <h1 className="text-white text-center textH1">I AM <span style={{ color: "#0AB6FA" }}>TANMOY PARVEZ</span></h1>
+            <h1 className="text-white text-center textH1">I AM <span style={{ color: "#276cec" }}>TANMOY PARVEZ</span></h1>
             <div className="d-flex justify-content-center align-items-center">
 
                 <h3 className="text-white">
-                    🤍{''}
+                    💙{''}
                     <Typical
                         loop={Infinity}
                         wrapper="b"
