@@ -13,6 +13,7 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import Work from "./Components/Home/Work/Work";
 import Navbar from "./Components/Home/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
+import Blogs from "./Components/Blogs/Blogs";
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <ContactUs></ContactUs>
+        </Route>
+        <Route path="/blogs">
+          <Blogs></Blogs>
         </Route>
         <Route path="*">
           <NoMatch></NoMatch>
